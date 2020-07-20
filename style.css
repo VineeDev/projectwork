@@ -9,12 +9,13 @@
 body{
   background: #f2f2f2;
 }
-#logo{
+/* #logo{
+  
   width: 140px;
   height: 70px;
   padding-top: -4px;
   margin-right: -1.6em;
-}
+} */
 nav{
   background: #1b1b1b;
 }
@@ -23,13 +24,15 @@ nav:after{
   clear: both;
   display: table;
 }
-nav .logo{
+.logo{
   float: left;
   color: white;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 70px;
-  padding-left: 60px;
+  /* font-size: 27px; */
+  /* font-weight: 600; */
+  /* line-height: 70px; */
+  padding-right: 60px;
+  width: 210px;
+  height: 80px;
 }
 nav ul{
   float: right;
