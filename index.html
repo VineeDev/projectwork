@@ -8,9 +8,8 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="slick.css">
-    <link rel="stylesheet" type="text/css" href="slick-theme.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
 
 
     <title>Sahni</title>
@@ -18,7 +17,7 @@
   <body>
     <nav>
         <div class="logo">
- <a href="/"><img class="logo" src="./images/Sahni Logo1.jpeg"></a></div>
+ <a href="/"><img id="logo" src="./images/Sahni Logo.png"></a></div>
   <label for="btn" class="icon">
           <span class="fa fa-bars"></span>
         </label>
@@ -101,417 +100,18 @@
 
 </ul>
 </li>
-  <li> <a href="test.html">  <button class="btn" href="#"  style="color:white  ;">Log In</button> </a></li>
+  <li> <a href="./Sahni Login/Login/login.html">  <button class="btn"  style="color: black  ;">Log In</button> </a></li>
   </ul>
   </nav>
-   <div class="slider">
-    <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            window.jssor_1_slider_init = function () {
+ <div class="slider">
+     <img class="banner" src="./images/2.1.jpeg" width="100%" title="100%">
+ </div>
 
-                var jssor_1_SlideoTransitions = [
-                    [{
-                        b: -1,
-                        d: 1,
-                        ls: 0.5
-                    }, {
-                        b: 0,
-                        d: 1000,
-                        y: 5,
-                        e: {
-                            y: 6
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        ls: 0.5
-                    }, {
-                        b: 200,
-                        d: 1000,
-                        y: 25,
-                        e: {
-                            y: 6
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        ls: 0.5
-                    }, {
-                        b: 400,
-                        d: 1000,
-                        y: 45,
-                        e: {
-                            y: 6
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        ls: 0.5
-                    }, {
-                        b: 600,
-                        d: 1000,
-                        y: 65,
-                        e: {
-                            y: 6
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        ls: 0.5
-                    }, {
-                        b: 800,
-                        d: 1000,
-                        y: 85,
-                        e: {
-                            y: 6
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        ls: 0.5
-                    }, {
-                        b: 500,
-                        d: 1000,
-                        y: 195,
-                        e: {
-                            y: 6
-                        }
-                    }],
-                    [{
-                        b: 0,
-                        d: 2000,
-                        y: 30,
-                        e: {
-                            y: 3
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        rY: -15,
-                        tZ: 100
-                    }, {
-                        b: 0,
-                        d: 1500,
-                        y: 30,
-                        o: 1,
-                        e: {
-                            y: 3
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        rY: -15,
-                        tZ: -100
-                    }, {
-                        b: 0,
-                        d: 1500,
-                        y: 100,
-                        o: 0.8,
-                        e: {
-                            y: 3
-                        }
-                    }],
-                    [{
-                        b: 500,
-                        d: 1500,
-                        o: 1
-                    }],
-                    [{
-                        b: 0,
-                        d: 1000,
-                        y: 380,
-                        e: {
-                            y: 6
-                        }
-                    }],
-                    [{
-                        b: 300,
-                        d: 1000,
-                        x: 80,
-                        e: {
-                            x: 6
-                        }
-                    }],
-                    [{
-                        b: 300,
-                        d: 1000,
-                        x: 330,
-                        e: {
-                            x: 6
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        r: -110,
-                        sX: 5,
-                        sY: 5
-                    }, {
-                        b: 0,
-                        d: 2000,
-                        o: 1,
-                        r: -20,
-                        sX: 1,
-                        sY: 1,
-                        e: {
-                            o: 6,
-                            r: 6,
-                            sX: 6,
-                            sY: 6
-                        }
-                    }],
-                    [{
-                        b: 0,
-                        d: 600,
-                        x: 150,
-                        o: 0.5,
-                        e: {
-                            x: 6
-                        }
-                    }],
-                    [{
-                        b: 0,
-                        d: 600,
-                        x: 1140,
-                        o: 0.6,
-                        e: {
-                            x: 6
-                        }
-                    }],
-                    [{
-                        b: -1,
-                        d: 1,
-                        sX: 5,
-                        sY: 5
-                    }, {
-                        b: 600,
-                        d: 600,
-                        o: 1,
-                        sX: 1,
-                        sY: 1,
-                        e: {
-                            sX: 3,
-                            sY: 3
-                        }
-                    }]
-                ];
-
-                var jssor_1_options = {
-                    $AutoPlay: 1,
-                    $LazyLoading: 1,
-                    $CaptionSliderOptions: {
-                        $Class: $JssorCaptionSlideo$,
-                        $Transitions: jssor_1_SlideoTransitions
-                    },
-                    $ArrowNavigatorOptions: {
-                        $Class: $JssorArrowNavigator$
-                    },
-                    $BulletNavigatorOptions: {
-                        $Class: $JssorBulletNavigator$,
-                        $SpacingX: 20,
-                        $SpacingY: 20
-                    }
-                };
-
-                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-                /*#region responsive code begin*/
-
-                var MAX_WIDTH = 3000;
-
-                function ScaleSlider() {
-                    var containerElement = jssor_1_slider.$Elmt.parentNode;
-                    var containerWidth = containerElement.clientWidth;
-
-                    if (containerWidth) {
-
-                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                        jssor_1_slider.$ScaleWidth(expectedWidth);
-                    } else {
-                        window.setTimeout(ScaleSlider, 30);
-                    }
-                }
-
-                ScaleSlider();
-
-                $Jssor$.$AddEvent(window, "load", ScaleSlider);
-                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-                /*#endregion responsive code end*/
-            };
-        </script>
-        <link
-            href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic"
-            rel="stylesheet" type="text/css" />
-        <style>
-            /* jssor slider loading skin spin css */
-            .jssorl-009-spin img {
-                animation-name: jssorl-009-spin;
-                animation-duration: 1.6s;
-                animation-iteration-count: infinite;
-                animation-timing-function: linear;
-            }
-
-            @keyframes jssorl-009-spin {
-                from {
-                    transform: rotate(0deg);
-                }
-
-                to {
-                    transform: rotate(360deg);
-                }
-            }
-
-
-            /*jssor slider bullet skin 132 css*/
-            .jssorb132 {
-                position: absolute;
-            }
-
-            .jssorb132 .i {
-                position: absolute;
-                cursor: pointer;
-            }
-
-            .jssorb132 .i .b {
-                fill: #fff;
-                fill-opacity: 0.8;
-                stroke: #000;
-                stroke-width: 1600;
-                stroke-miterlimit: 10;
-                stroke-opacity: 0.7;
-            }
-
-            .jssorb132 .i:hover .b {
-                fill: #000;
-                fill-opacity: .7;
-                stroke: #fff;
-                stroke-width: 2000;
-                stroke-opacity: 0.8;
-            }
-
-            .jssorb132 .iav .b {
-                fill: #000;
-                stroke: #fff;
-                stroke-width: 2400;
-                fill-opacity: 0.8;
-                stroke-opacity: 1;
-            }
-
-            .jssorb132 .i.idn {
-                opacity: 0.3;
-            }
-
-            .jssora051 {
-                display: block;
-                position: absolute;
-                cursor: pointer;
-            }
-
-            .jssora051 .a {
-                fill: none;
-                stroke: #fff;
-                stroke-width: 360;
-                stroke-miterlimit: 10;
-            }
-
-            .jssora051:hover {
-                opacity: .8;
-            }
-
-            .jssora051.jssora051dn {
-                opacity: .5;
-            }
-
-            .jssora051.jssora051ds {
-                opacity: .3;
-                pointer-events: none;
-            }
-        </style>
-        <svg viewbox="0 0 0 0" width="0" height="0" style="display:block;position:relative;left:0px;top:0px;">
-            <defs>
-                <filter id="jssor_1_flt_1" x="-50%" y="-50%" width="200%" height="200%">
-                    <feGaussianBlur stddeviation="4"></feGaussianBlur>
-                </filter>
-                <radialGradient id="jssor_1_grd_2">
-                    <stop offset="0" stop-color="#fff"></stop>
-                    <stop offset="1" stop-color="#000"></stop>
-                </radialGradient>
-                <mask id="jssor_1_msk_3">
-                    <path fill="url(#jssor_1_grd_2)" d="M600,0L600,400L0,400L0,0Z" x="0" y="0"
-                        style="position:absolute;overflow:visible;"></path>
-                </mask>
-            </defs>
-        </svg>
-        <div id="jssor_1"
-            style="position:relative;margin:0 auto;top:0px;left:0px;width:1600px;height:560px;overflow:hidden;visibility:hidden;">
-            <!-- Loading Screen -->
-            <div data-u="loading" class="jssorl-009-spin"
-                style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
-            </div>
-            <div data-u="slides"
-                style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:560px;overflow:hidden;">
-                <div style="background-color:#d3890e;">
-                    <img data-u="image" style="opacity:0.8;" data-src="images/2.1.jpeg" />
-                    
-                </div>
-                <div>
-                    <img data-u="image" data-src="images/3.jpeg" />
-                   
-                </div>
-                <div style="background-color:#000000;">
-                    <img data-u="image" style="opacity:0.8;" data-src="images/1.png" />
-                  
-                </div>
-                <div>
-                    <img data-u="image" data-src="images/2.jpeg" />
-                   
-                </div>
-                <div>
-                   <img data-u="image" data-src="images/Sahni Logo.png" />
-                    
-                </div> 
-            </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slider html</a>
-            <!-- Bullet Navigator -->
-            <div data-u="navigator" class="jssorb132" style="position:absolute;bottom:24px;right:16px;"
-                data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-                <div data-u="prototype" class="i" style="width:12px;height:12px;">
-                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                    </svg>
-                </div>
-            </div>
-            <!-- Arrow Navigator -->
-            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;"
-                data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-                </svg>
-            </div>
-            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;"
-                data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-                </svg>
-            </div>
-        </div>
-    </div>
-
-     <div class="center"> 
+     <!-- <div class="center"> 
      
       <a href="#">  <div class="outer button">
           <button>Calender</button>
-          <span></span>
-          <span></span>
+          
         </div></a>
         <a href="#">   <div class="outer button">
           <button>trade shows</button>
@@ -529,52 +129,128 @@
           <span></span>
         </div></a>
  
-  </div>  
-    <!-- ---------------------------------gallery------------------------------ -->
- <!-- <div class="gallery-c">
-<div class="slider slider-for">
-    <div>
-        <img class="image-sl" src="./images/fun pictures/eAsu4Nng.jpeg" >
-    </div>
-    <div>
-        <img class="image-sl" src="./images/fun pictures/1geUzsTQ.jpeg">
-    </div>
-    <div>
-        <img class="image-sl" src="./images/fun pictures/DSC_0032.JPG">
-    </div>
-    <div>
-        <img class="image-sl" src="./images/fun pictures/bKABpApw.jpeg">
-    </div>
-    <div>
-        <img class="image-sl" src="./images/fun pictures/halloween 007.jpg">
-    </div>
+  </div>   -->
    
-</div></div>
-<div class="slider slider-nav">
-    <div>
-        <img class="image-slm" src="./images/fun pictures/eAsu4Nng.jpeg" >
+  <div class="container">
+    <div class="form-row">
+  <div class="col" >
+   <a href=""style="text-decoration:none"> <button class="btn btn-primary btn-block" >Calender</button></a>
+  </div>
+  <div class="col">
+    <a href=""style="text-decoration:none"> <button class="btn btn-primary btn-block" >Trade Shows</button></a>
+  </div>
     </div>
-    <div>
-        <img class="image-slm" src="./images/fun pictures/1geUzsTQ.jpeg" >
+    <div class="form-row mt-2">
+  <div class="col">
+    <a href=""style="text-decoration:none"> <button class="btn btn-primary btn-block" >Key Contacts</button></a>
+  </div>
+  <div class="col">
+    <a href=""style="text-decoration:none"><button class="btn btn-primary btn-block"  >Leave Request Form</button></a>
+  </div>
     </div>
-    <div>
-        <img class="image-slm" src="./images/fun pictures/DSC_0032.JPG" >
-    </div>
-    <div>
-        <img class="image-slm" src="./images/fun pictures/bKABpApw.jpeg" >
-    </div>
-    <div>
-        <img class="image-slm" src="./images/fun pictures/halloween 007.jpg" >
-    </div>
-</div> -->
-
+  </div>
+  
+  <!-- ---------------------------------gallery------------------------------ -->
+   <div class="gallery">
+    <div class="container mt-5">
+      <div class="carousel-container position-relative row">
         
-
-
-
-
-
-     <footer>  
+      <!-- Sorry! Lightbox doesn't work - yet. -->
+        
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-slide-number="0">
+            <img src="https://source.unsplash.com/Pn6iimgM-wo/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/Pn6iimgM-wo/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="1">
+            <img src="https://source.unsplash.com/tXqVe7oO-go/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/tXqVe7oO-go/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="2">
+            <img src="https://source.unsplash.com/qlYQb7B9vog/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/qlYQb7B9vog/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="3">
+            <img src="https://source.unsplash.com/QfEfkWk1Uhk/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/QfEfkWk1Uhk/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="4">
+            <img src="https://source.unsplash.com/CSIcgaLiFO0/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/CSIcgaLiFO0/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="5">
+            <img src="https://source.unsplash.com/a_xa7RUKzdc/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/a_xa7RUKzdc/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="6">
+            <img src="https://source.unsplash.com/uanoYn1AmPs/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/uanoYn1AmPs/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="7">
+            <img src="https://source.unsplash.com/_snqARKTgoc/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/_snqARKTgoc/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="8">
+            <img src="https://source.unsplash.com/M9F8VR0jEPM/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/M9F8VR0jEPM/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+          <div class="carousel-item" data-slide-number="9">
+            <img src="https://source.unsplash.com/Q1p7bh3SHj8/1600x900/" class="d-block w-100" alt="..." data-remote="https://source.unsplash.com/Q1p7bh3SHj8/" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
+          </div>
+        </div>
+      </div>
+      
+      <!-- Carousel Navigation -->
+      <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row mx-0">
+              <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
+                <img src="https://source.unsplash.com/Pn6iimgM-wo/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-1" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="1">
+                <img src="https://source.unsplash.com/tXqVe7oO-go/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-2" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="2">
+                <img src="https://source.unsplash.com/qlYQb7B9vog/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-3" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="3">
+                <img src="https://source.unsplash.com/QfEfkWk1Uhk/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-4" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="4">
+                <img src="https://source.unsplash.com/CSIcgaLiFO0/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-5" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="5">
+                <img src="https://source.unsplash.com/a_xa7RUKzdc/600x400/" class="img-fluid" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row mx-0">
+              <div id="carousel-selector-6" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="6">
+                <img src="https://source.unsplash.com/uanoYn1AmPs/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-7" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="7">
+                <img src="https://source.unsplash.com/_snqARKTgoc/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-8" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="8">
+                <img src="https://source.unsplash.com/M9F8VR0jEPM/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div id="carousel-selector-9" class="thumb col-4 col-sm-2 px-1 py-2" data-target="#myCarousel" data-slide-to="9">
+                <img src="https://source.unsplash.com/Q1p7bh3SHj8/600x400/" class="img-fluid" alt="...">
+              </div>
+              <div class="col-2 px-1 py-2"></div>
+              <div class="col-2 px-1 py-2"></div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+      </div> <!-- /row -->
+      </div> <!-- /container -->
+   </div>
+   
+    <footer class="foot">  
         <center><h1 style="color: Black;"> Accredation Logos</h1></center> 
         <marquee behaviour="scroll" direction="left">
         <div class="row">
@@ -613,6 +289,68 @@
     <!-- <script src="script.js"></script> -->
 
     <!-- Optional JavaScript -->
+     <script>
+       $('#myCarousel').carousel({
+  interval: false
+});
+$('#carousel-thumbs').carousel({
+  interval: false
+});
+
+// handles the carousel thumbnails
+// https://stackoverflow.com/questions/25752187/bootstrap-carousel-with-thumbnails-multiple-carousel
+$('[id^=carousel-selector-]').click(function() {
+  var id_selector = $(this).attr('id');
+  var id = parseInt( id_selector.substr(id_selector.lastIndexOf('-') + 1) );
+  $('#myCarousel').carousel(id);
+});
+// Only display 3 items in nav on mobile.
+if ($(window).width() < 575) {
+  $('#carousel-thumbs .row div:nth-child(4)').each(function() {
+    var rowBoundary = $(this);
+    $('<div class="row mx-0">').insertAfter(rowBoundary.parent()).append(rowBoundary.nextAll().addBack());
+  });
+  $('#carousel-thumbs .carousel-item .row:nth-child(even)').each(function() {
+    var boundary = $(this);
+    $('<div class="carousel-item">').insertAfter(boundary.parent()).append(boundary.nextAll().addBack());
+  });
+}
+// Hide slide arrows if too few items.
+if ($('#carousel-thumbs .carousel-item').length < 2) {
+  $('#carousel-thumbs [class^=carousel-control-]').remove();
+  $('.machine-carousel-container #carousel-thumbs').css('padding','0 5px');
+}
+// when the carousel slides, auto update
+$('#myCarousel').on('slide.bs.carousel', function(e) {
+  var id = parseInt( $(e.relatedTarget).attr('data-slide-number') );
+  $('[id^=carousel-selector-]').removeClass('selected');
+  $('[id=carousel-selector-'+id+']').addClass('selected');
+});
+// when user swipes, go next or previous
+$('#myCarousel').swipe({
+  fallbackToMouseEvents: true,
+  swipeLeft: function(e) {
+    $('#myCarousel').carousel('next');
+  },
+  swipeRight: function(e) {
+    $('#myCarousel').carousel('prev');
+  },
+  allowPageScroll: 'vertical',
+  preventDefaultEvents: false,
+  threshold: 75
+});
+/*
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+*/
+
+$('#myCarousel .carousel-item img').on('click', function(e) {
+  var src = $(e.target).attr('data-remote');
+  if (src) $(this).ekkoLightbox();
+});
+     </script>
    
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -620,28 +358,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        jssor_1_slider_init();
-    </script>
-    <script type="text/javascript" src="slick.js"></script>
-    <script type="text/javascript" src="slick.min.js"></script>
-    <script>
-  $('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  asNavFor: '.slider-for',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-});
-       </script>
+  
    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    
     </body>
 </html>

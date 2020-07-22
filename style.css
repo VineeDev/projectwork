@@ -9,54 +9,47 @@
 body{
   background: #f2f2f2;
 }
-/* #logo{
-  
-  width: 140px;
-  height: 70px;
-  padding-top: -4px;
-  margin-right: -1.6em;
-} */
+#logo{
+  padding-left: 0.1em;
+  width: 150px;
+  height: 80px;
+  /* padding-top: -4px; */
+  /* margin-right: -1.6em; */
+}
 nav{
-  background: #1b1b1b;
+  background: white;
 }
 nav:after{
   content: '';
   clear: both;
   display: table;
-}
-.logo{
-  float: left;
-  color: white;
-  /* font-size: 27px; */
-  /* font-weight: 600; */
-  /* line-height: 70px; */
-  padding-right: 60px;
-  width: 210px;
-  height: 80px;
-}
+ }
+
+ 
 nav ul{
+  margin-top: -4em;
   float: right;
   margin-right: 40px;
   list-style: none;
   position: relative;
 }
 nav ul li{
-  float: left;
+  /* float: left; */
   display: inline-block;
-  background: #1b1b1b;
+  background:white;
   margin: -3px 5px;
 }
 nav ul li a{
-  color: white;
+  color: black;
   line-height: 70px;
   text-decoration: none;
   font-size: 18px;
   padding: 8px 15px;
 }
 nav ul li a:hover{
-  color: cyan;
+  color: black;
   border-radius: 5px;
-  box-shadow:  0 0 5px #33ffff,
+  box-shadow:  0 0 5px black,
                0 0 10px #66ffff;
 }
 nav ul ul li a:hover{
@@ -64,9 +57,10 @@ nav ul ul li a:hover{
 
 }
 nav ul ul li a{
-font-size: 10px;
+font-size: 12px;
 }
 nav ul ul{
+  margin-top: 0.1em;
   position: absolute;
   top: 90px;
   border-top: 3px solid cyan;
@@ -84,9 +78,10 @@ nav ul li:hover > ul{
   z-index: 5;
 }
 nav ul ul li{
+  
   position: relative;
   margin: 0px;
-  width: 150px;
+  width: 200px;
   float: none;
   display: list-item;
   border-bottom: 1px solid rgba(0,0,0,0.3);
@@ -111,10 +106,7 @@ nav ul ul ul li{
     margin-right: 0px;
     float: left;
   }
-  nav .logo{
-    padding-left: 30px;
-    width: 100%;
-  }
+
   .show + a, ul{
     display: none;
   }
@@ -127,7 +119,7 @@ nav ul ul ul li{
   }
   .show{
     display: block;
-    color: white;
+    color: black;
     font-size: 18px;
     padding: 0 20px;
     line-height: 70px;
@@ -138,7 +130,7 @@ nav ul ul ul li{
   }
   .icon{
     display: block;
-    color: white;
+    color: black;
     position: absolute;
     top: 0;
     right: 40px;
@@ -317,3 +309,54 @@ height:100px;
 margin-left: 40em;
 }
 
+.form-row{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.btn-block {
+  display: block;
+  width:80%;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  background: rgba(255,255,255,.3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
+}
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
+}
+#carousel-thumbs img:hover {
+  border-color: rgba(255,255,255,.3);
+}
+#carousel-thumbs .selected img {
+  border-color: #fff;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+}
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
+}
