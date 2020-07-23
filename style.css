@@ -267,9 +267,8 @@ p{
 /* -------------------------------------------gallery---------------------------------------------------- */
 
 .row{
-  padding-left: 6em;
   justify-content: space-between;
-  
+  padding-bottom: 2em;
 }
 
 .column {
