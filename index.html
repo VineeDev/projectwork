@@ -8,15 +8,17 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <!-- jQuery 1.8 or later, 33 KB -->
 
 
     <title>Sahni</title>
   </head>
   <body>
-    <nav>
+            <nav>
         <div class="logo">
  <a href="/"><img id="logo" src="./images/Sahni Logo.png"></a></div>
-  <label for="btn" class="icon" >
+  <label for="btn" class="icon">
           <span class="fa fa-bars"></span>
         </label>
         <input type="checkbox" id="btn">
@@ -98,10 +100,10 @@
 
 </ul>
 </li>
-  <li> <a href="./Sahni Login/Login/login.html">  <button class="btn"  style="color:white  ;">Log In</button> </a></li>
+  <li> <a href="test.html">  <button class="btn" href="#"  style="color:white  ;">Log In</button> </a></li>
   </ul>
   </nav>
- <div class="slider">
+   <div class="slider">
      <img class="banner" src="./images/2.1.jpeg" width="100%" title="100%">
  </div>
    
@@ -309,16 +311,19 @@ $('#myCarousel .carousel-item img').on('click', function(e) {
   if (src) $(this).ekkoLightbox();
 });
      </script>
+
+    <!-- Optional JavaScript -->
    
-    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init();
+    </script>
+    <script type="text/javascript" src="gallery.js"></script>
     
     </body>
 </html>
