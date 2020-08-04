@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="gallery.css">
@@ -17,7 +17,7 @@
   <body>
             <nav>
         <div class="logo">
- <a href="/"><img id="logo" src="./images/Sahni Logo.png"></a></div>
+ <a href="/"><img id="logo" src="./images/Sahni Logo1.jpeg"></a></div>
   <label for="btn" class="icon">
           <span class="fa fa-bars"></span>
         </label>
@@ -100,30 +100,38 @@
 
 </ul>
 </li>
-  <li> <a href="test.html">  <button class="btn" href="#"  style="color:white  ;">Log In</button> </a></li>
+  <li> <a href="/Sahni Login/Login/login.html">  <button class="btn" href="#"  style="color:white  ;">Log In</button> </a></li>
   </ul>
   </nav>
-   <div class="slider">
+   <div class="slider" style="background-color: black; line-height: 20px;">
      <img class="banner" src="./images/2.1.jpeg" width="100%" title="100%">
+     
  </div>
+ 
    
- <div class="container "> 
-  <div class="row ">
-    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-one" style="color: black;">Calender</a> </div>
-    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-two" style="color: black;">Trade Shows</a> </div>
-    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-three" style="color: black;">Key Contacts</a> </div>
-    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-four"style="color: black;">Leave request Form</a> </div>
-  </div>
- </div>
+<div class="btngroup">
+  <button class="button">CALENDER</button>
+
+  <button class="button">TRADE SHOWS</button>
+
+  <button class="button">KEY CONTACTS</button>
+
+  <button class="button">LEAVE REQUEST</button>
+
+</div>
   
   <!-- ---------------------------------gallery------------------------------ -->
-   <div class="gallery">
+
+
+<!--   
+  <div class="crouselgal">
+   <div class="gallery" style="background-color: white;">
     <div class="container mt-5">
       <div class="carousel-container position-relative row">
+         -->
+      
         
-      <!-- Sorry! Lightbox doesn't work - yet. -->
-        
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-slide-number="0">
             <img src="./images/fun pictures/1geUzsTQ.jpeg" class="d-block w-100" alt="..." data-remote="./images/fun pictures/1geUzsTQ.jpeg" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
@@ -156,11 +164,12 @@
             <img src="./images/fun pictures/halloween 018.jpg" class="d-block w-100" alt="..." data-remote="./images/fun pictures/halloween 018.jpg" data-type="image" data-toggle="lightbox" data-gallery="example-gallery">
           </div>
         </div>
-      </div>
+      </div> -->
       
       <!-- Carousel Navigation -->
-      <div id="carousel-thumbs" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+    
+    <div id="carousel-thumbs" class="carousel slide" data-ride="carousel" style="margin-top:5em; background-color: white;">
+        <div class="carousel-inner " >
           <div class="carousel-item active">
             <div class="row mx-0">
               <div id="carousel-selector-0" class="thumb col-4 col-sm-2 px-1 py-2 selected" data-target="#myCarousel" data-slide-to="0">
@@ -202,19 +211,20 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+        <a class="carousel-control-prev" href="#carousel-thumbs" role="button" data-slide="prev"  >
+          <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+          <span class="sr-only" >Previous</span>
         </a>
         <a class="carousel-control-next" href="#carousel-thumbs" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span class="sr-only" >Next</span>
         </a>
       </div>
-      
-      </div> <!-- /row -->
-      </div> <!-- /container -->
+     
+      </div> 
+      </div> 
    </div>
+  </div>
    
     <footer class="foot">  
         <!-- <center><h1 style="color: Black;"> Accredation Logos</h1></center>  -->
@@ -255,7 +265,7 @@
     <script src="script.js"></script>
 
     <!-- Optional JavaScript -->
-     <script>
+     <!-- <script>
        $('#myCarousel').carousel({
   interval: false
 });
@@ -310,10 +320,10 @@ $('#myCarousel .carousel-item img').on('click', function(e) {
   var src = $(e.target).attr('data-remote');
   if (src) $(this).ekkoLightbox();
 });
-     </script>
+     </script> -->
 
     <!-- Optional JavaScript -->
-   
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
